@@ -1,0 +1,9 @@
+{application,notification_proto,
+             [{applications,[kernel,stdlib,elixir,grpc]},
+              {description,"notification_proto"},
+              {modules,['Elixir.Notificationapi.GetNotificationRequest',
+                        'Elixir.Notificationapi.GetNotificationResponse',
+                        'Elixir.Notificationapi.Notification.Service',
+                        'Elixir.Notificationapi.Notification.Stub']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
